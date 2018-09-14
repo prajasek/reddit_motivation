@@ -4,6 +4,8 @@ import webbrowser
 #What subreddit you want to view posts from 
 subreddit_name = "getmotivated"
 
+
+#enter auth details given by reddit, and your username and password
 reddit = praw.Reddit(client_id = "xxxx-xxxx",
                     client_secret = "xxxxx",
                     password = "xxxx",
