@@ -1,15 +1,17 @@
 import praw
 import webbrowser
 
+#What subreddit you want to view posts from 
+subreddit_name = "getmotivated"
 
-reddit = praw.Reddit(client_id = "dv4AghN-m6GxfA",
-                    client_secret = "lYi6i98Fc9Iqh8W9WdJfUdfadAY",
-                    password = "mobile6120!",
-                    username = "wannastro", 
+reddit = praw.Reddit(client_id = "xxxx-xxxx",
+                    client_secret = "xxxxx",
+                    password = "xxxx",
+                    username = "xxxxx", 
                     user_agent = "get_motivated")
 
 #https://www.reddit.com/r/getmotivated
-subreddit = reddit.subreddit("getmotivated")
+subreddit = reddit.subreddit(subreddit_name)
 
 post_dict = {"title" : [], "id" : [] , "url" : []}
 
