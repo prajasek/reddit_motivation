@@ -29,10 +29,10 @@ for i in range(1):
 
 
 # Hot/new 3 post +  1 random post
-hot_ten_links = [(post_title,"https://www.reddit.com/r/" + subreddit_name + "/comments/"+ post_id) for post_title, post_id in zip(post_dict["title"][2:],post_dict["id"][2:])]
+hot_links = [(post_title,"https://www.reddit.com/r/" + subreddit_name + "/comments/"+ post_id) for post_title, post_id in zip(post_dict["title"][2:],post_dict["id"][2:])]
 
 # Open these links in default browser
-for links in hot_ten_links:
+for links in hot_links:
     webbrowser.open(links[1], new=1)
 
 
