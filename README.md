@@ -1,2 +1,3 @@
 # reddit_motivation
-get hot/random motivational reddit posts from "GetMotivated" subreddit
+Get top/random motivational reddit posts from "GetMotivated" subreddit on a daily basis. 
+
