@@ -13,7 +13,7 @@ reddit = praw.Reddit(client_id = "xxxx-xxxx",
                     user_agent = "get_motivated")
 
 # subreddit name (in this case, r/getmotivated)
-subreddit = reddit.subreddit(subreddit_name)
+subreddit = reddit.subreddit(subreddit_name) 
 
 post_dict = {"title" : [], "id" : [] , "url" : []}
 
